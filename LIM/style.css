@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+    background-image: url(background.jpg);
+    background-size: cover;
+    text-align: center;
+    padding:2% 8% 4%;
+}
+
+body>div{
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: 0 150px;
+}
+
+.logo{
+    width: 175px;
+    margin-top: 75px;
+}
+
+header :last-child{
+    margin: 0%;
+    color: #00dd00;
+}
+
+nav, main{
+    margin:5px 5% 20px;
+}
+
+nav{
+    font-size: 8px;
+    padding: 1em;
+    background-size: 75%;
+    background-color: #00dd00;
+    border-radius: 10px;
+}
+
+main{
+    color: white;
+    text-align: left;
+    padding: 0 0 30px;
+}
+
+main h3{
+    display: inline;
+}
+
+main>div{
+    margin: 20px 0;
+}
+
+main>div>*{
+    margin: 3px ;
+}
+
+main>div :nth-child(3):before{
+    content: "\2192";
+}
+
+main>div :last-child{
+    height: 20px; 
+    border-radius: 10px;
+    margin: 0 0 10px;
+} 
+
+.monopattino{
+    border-radius: 10px;
+}
+
+.monopattino.a :last-child{
+    background-color: violet;
+    width: 30%;
+}
+
+.monopattino.b :last-child{
+    background-color: blue;
+    width: 90%;
+}
+
+.monopattino.c :last-child{
+    background-color: purple;
+    width: 60%;
+}
